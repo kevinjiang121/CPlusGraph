@@ -18,6 +18,7 @@ public:
 
     //methods
     void print();
+    void getNode()
 private:
     int node;
 };
