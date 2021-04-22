@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj"
   "CMakeFiles/CPlusGraph.dir/main.cpp.obj"
   "CPlusGraph.exe"
   "CPlusGraph.exe.manifest"

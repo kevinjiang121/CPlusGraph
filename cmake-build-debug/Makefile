@@ -141,6 +141,33 @@ CPlusGraph/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make CMakeFiles/CPlusGraph.dir/build
 .PHONY : CPlusGraph/fast
 
+GraphNode.obj: GraphNode.cpp.obj
+
+.PHONY : GraphNode.obj
+
+# target to build an object file
+GraphNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj
+.PHONY : GraphNode.cpp.obj
+
+GraphNode.i: GraphNode.cpp.i
+
+.PHONY : GraphNode.i
+
+# target to preprocess a source file
+GraphNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make CMakeFiles/CPlusGraph.dir/GraphNode.cpp.i
+.PHONY : GraphNode.cpp.i
+
+GraphNode.s: GraphNode.cpp.s
+
+.PHONY : GraphNode.s
+
+# target to generate assembly for a file
+GraphNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make CMakeFiles/CPlusGraph.dir/GraphNode.cpp.s
+.PHONY : GraphNode.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPlusGraph
+	@echo ... GraphNode.obj
+	@echo ... GraphNode.i
+	@echo ... GraphNode.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
