@@ -1,2 +1,2 @@
 # CPlusGraph
-A repository about graphs. Users can input in number of vertices and define edge sets. Program will create these graphs as a set of nodes and pointers.
+A repository about graphs. Users can input in number of vertices and define edge sets. Program will create these graphs as a set of nodes and pointers. The program will be able to calculate some basic information about the graph, such as its degree matrix, its adjacency matrix, its boundary maps, and its graph Laplacian (Kirchhoff matrix). It would then be able to calculate the eigenvalues and eigenvectors of any of the above listed matrices (other than the boundary maps).
