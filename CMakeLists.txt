@@ -4,10 +4,14 @@ project(CPlusGraph)
 set(CMAKE_CXX_STANDARD 14)
 
 set(PROJECT_HEADERS
-        GraphNode.h)
+        GraphNode.h
+        ItemType.h
+        )
 
 set(PROJECT_SOURCES
         main.cpp
-        GraphNode.cpp)
+        GraphNode.cpp
+        ItemType.cpp
+        )
 
 add_executable(CPlusGraph ${PROJECT_SOURCES} ${PROJECT_HEADERS})
