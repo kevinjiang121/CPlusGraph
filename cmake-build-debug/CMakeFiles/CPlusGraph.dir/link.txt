@@ -1,3 +1,0 @@
-"C:\Main\Programs\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CPlusGraph.dir/objects.a
-C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\CPlusGraph.dir/objects.a @CMakeFiles\CPlusGraph.dir\objects1.rsp
-C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CPlusGraph.dir/objects.a -Wl,--no-whole-archive -o CPlusGraph.exe -Wl,--out-implib,libCPlusGraph.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CPlusGraph.dir\linklibs.rsp

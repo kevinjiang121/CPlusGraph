@@ -1,10 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj"
+  "CMakeFiles/CPlusGraph.dir/ItemType.cpp.obj"
   "CMakeFiles/CPlusGraph.dir/main.cpp.obj"
   "CPlusGraph.exe"
   "CPlusGraph.exe.manifest"
+  "CPlusGraph.lib"
   "CPlusGraph.pdb"
-  "libCPlusGraph.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
