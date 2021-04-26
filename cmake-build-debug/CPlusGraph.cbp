@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Main/Business/Projects/CPlusGraph/Eigen.cpp">
+			<Option target="CPlusGraph"/>
+		</Unit>
+		<Unit filename="C:/Main/Business/Projects/CPlusGraph/Eigen.h">
+			<Option target="CPlusGraph"/>
+		</Unit>
 		<Unit filename="C:/Main/Business/Projects/CPlusGraph/GraphNode.cpp">
 			<Option target="CPlusGraph"/>
 		</Unit>

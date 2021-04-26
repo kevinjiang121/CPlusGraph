@@ -117,11 +117,31 @@ CMakeFiles\CPlusGraph.dir\ItemType.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CPlusGraph.dir\ItemType.cpp.s /c C:\Main\Business\Projects\CPlusGraph\ItemType.cpp
 <<
 
+CMakeFiles\CPlusGraph.dir\Eigen.cpp.obj: CMakeFiles\CPlusGraph.dir\flags.make
+CMakeFiles\CPlusGraph.dir\Eigen.cpp.obj: ..\Eigen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Main\Business\Projects\CPlusGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CPlusGraph.dir\Eigen.cpp.obj /FdCMakeFiles\CPlusGraph.dir\ /FS -c C:\Main\Business\Projects\CPlusGraph\Eigen.cpp
+<<
+
+CMakeFiles\CPlusGraph.dir\Eigen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPlusGraph.dir/Eigen.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\CPlusGraph.dir\Eigen.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Main\Business\Projects\CPlusGraph\Eigen.cpp
+<<
+
+CMakeFiles\CPlusGraph.dir\Eigen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPlusGraph.dir/Eigen.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CPlusGraph.dir\Eigen.cpp.s /c C:\Main\Business\Projects\CPlusGraph\Eigen.cpp
+<<
+
 # Object files for target CPlusGraph
 CPlusGraph_OBJECTS = \
 "CMakeFiles\CPlusGraph.dir\main.cpp.obj" \
 "CMakeFiles\CPlusGraph.dir\GraphNode.cpp.obj" \
-"CMakeFiles\CPlusGraph.dir\ItemType.cpp.obj"
+"CMakeFiles\CPlusGraph.dir\ItemType.cpp.obj" \
+"CMakeFiles\CPlusGraph.dir\Eigen.cpp.obj"
 
 # External object files for target CPlusGraph
 CPlusGraph_EXTERNAL_OBJECTS =
@@ -129,9 +149,10 @@ CPlusGraph_EXTERNAL_OBJECTS =
 CPlusGraph.exe: CMakeFiles\CPlusGraph.dir\main.cpp.obj
 CPlusGraph.exe: CMakeFiles\CPlusGraph.dir\GraphNode.cpp.obj
 CPlusGraph.exe: CMakeFiles\CPlusGraph.dir\ItemType.cpp.obj
+CPlusGraph.exe: CMakeFiles\CPlusGraph.dir\Eigen.cpp.obj
 CPlusGraph.exe: CMakeFiles\CPlusGraph.dir\build.make
 CPlusGraph.exe: CMakeFiles\CPlusGraph.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Main\Business\Projects\CPlusGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CPlusGraph.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Main\Business\Projects\CPlusGraph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CPlusGraph.exe"
 	"C:\Main\Programs\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CPlusGraph.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CPlusGraph.dir\objects1.rsp @<<
  /out:CPlusGraph.exe /implib:CPlusGraph.lib /pdb:C:\Main\Business\Projects\CPlusGraph\cmake-build-debug\CPlusGraph.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

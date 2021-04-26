@@ -126,6 +126,33 @@ CPlusGraph\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPlusGraph.dir\build
 .PHONY : CPlusGraph\fast
 
+Eigen.obj: Eigen.cpp.obj
+
+.PHONY : Eigen.obj
+
+# target to build an object file
+Eigen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPlusGraph.dir\Eigen.cpp.obj
+.PHONY : Eigen.cpp.obj
+
+Eigen.i: Eigen.cpp.i
+
+.PHONY : Eigen.i
+
+# target to preprocess a source file
+Eigen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPlusGraph.dir\Eigen.cpp.i
+.PHONY : Eigen.cpp.i
+
+Eigen.s: Eigen.cpp.s
+
+.PHONY : Eigen.s
+
+# target to generate assembly for a file
+Eigen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPlusGraph.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CPlusGraph.dir\Eigen.cpp.s
+.PHONY : Eigen.cpp.s
+
 GraphNode.obj: GraphNode.cpp.obj
 
 .PHONY : GraphNode.obj
@@ -216,6 +243,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPlusGraph
+	@echo ... Eigen.obj
+	@echo ... Eigen.i
+	@echo ... Eigen.s
 	@echo ... GraphNode.obj
 	@echo ... GraphNode.i
 	@echo ... GraphNode.s
