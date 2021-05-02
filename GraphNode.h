@@ -26,15 +26,23 @@ public:
     ~GraphNode();
 
     //methods
-    void insert(ItemType key);
-    void deleteItem(ItemType key);
+    void insert(ItemType vertex, int degree);
+    void deleteItem(ItemType vertex);
     void get(ItemType &item, bool &found) const;
     void getLaplacian();
     void getAdjacency();
     void getDegreeMatrix();
+
+    //test methods
     void print();
+    void printGraph();
+    void printNode();
+
+    //helper method
+    void insertHelper(ItemType vertex, int degree);
 private:
     Node *start;
+    Node *currentPos;
 };
 
 
