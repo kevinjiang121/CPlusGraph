@@ -1,6 +1,7 @@
 //include statements
 #include <iostream>
 #include <string>
+#include <algorithm>
 #include "ItemType.h"
 
 //header guards
@@ -31,7 +32,8 @@ public:
     void get(ItemType &item, bool &found) const;
     void getLaplacian();
     void getAdjacency();
-    void getDegreeMatrix();
+    int** getDegreeMatrix();
+    void printDegreeMatrix();
 
     //test methods
     void print();
@@ -43,6 +45,7 @@ public:
 private:
     Node *start;
     Node *currentPos;
+    int numOfVertex;
 };
 
 
