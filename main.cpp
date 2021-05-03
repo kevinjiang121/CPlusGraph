@@ -14,13 +14,9 @@ int main() {
     node.insert(vertex, 5);
     node.insert(vertex, 4);
     node.insert(vertex, 3);
-    //node.printNode();
     node.insert(vertex, 2);
-    //node.printNode();
     node.insert(vertex,1);
-    //node.printNode();
     node.insert(vertex,0);
-
-    node.printGraph();
+    node.printDegreeMatrix();
     return 0;
 }
