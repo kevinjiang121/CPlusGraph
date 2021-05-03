@@ -29,8 +29,33 @@ void GraphNode::getAdjacency() {
 
 }
 
-void GraphNode::getDegreeMatrix() {
+int** GraphNode::getDegreeMatrix() {
+    int ** degreeM = new int*[numOfVertex];
+    for(int i = 0; i<numOfVertex; i++) {
+        degreeM[i] = new int[numOfVertex];
+    }
+    currentPos = start;
+    for(int i=0; i<numOfVertex; i++) {
+        for(int j=0; j<numOfVertex; j++) {
+            if(i==j) {
+                degreeM[i][j] = currentPos->degree;
+                currentPos = currentPos->next;
+            } else {
+                degreeM[i][j] = 0;
+            }
+        }
+    }
+    return degreeM;
+}
 
+void GraphNode::printDegreeMatrix() {
+    int ** degreeM = getDegreeMatrix();
+    for(int i=0; i<numOfVertex; i++) {
+        for(int j = 0; j<numOfVertex; j++) {
+            cout << degreeM[i][j] << " ";
+        }
+        cout << endl;
+    }
 }
 
 void GraphNode::insertHelper(ItemType vertex, int degree) {
@@ -60,6 +85,7 @@ void GraphNode::insertHelper(ItemType vertex, int degree) {
         temp->degree = degree;
         temp->position = position + 1;
         currentPos->next = temp;
+        numOfVertex = position + 1;
     }
 }
 
