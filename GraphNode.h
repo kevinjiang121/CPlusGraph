@@ -20,6 +20,7 @@ public:
         Node *next;//next node in linked list
         int degree;//amount of edges connect to a node
         int position;//position on the linked list (1st, 2nd, etc)
+        int *edge;
     };//Node
 
     //constructors and destructors
@@ -29,11 +30,13 @@ public:
     //methods
     //calls the insertHelper method. Requires vertex and the number of edges connected
     //to the vertex. Does not return anything.
-    void insert(ItemType vertex, int degree);
+    void insert(ItemType vertex, int degree, int *edge);
     void deleteItem(ItemType vertex);
     void get(ItemType &item, bool &found) const;
-    void getLaplacian();
-    void getAdjacency();
+    int** getLaplacian();
+    void printLaplacian();
+    int** getAdjacency();
+    void printAdjacenyMatrix();
     //gets Degree Matrix. Requires no parameters. Returns the degree Matrix.
     int** getDegreeMatrix();
     //prints degree matrix. Requires no parameters. Returns nothing.
@@ -48,7 +51,7 @@ public:
     //helps insert. Requires a vertex and the number of edges attached
     //for parameters. Insert the node as the next node on the linked list.
     //returns nothing.
-    void insertHelper(ItemType vertex, int degree);
+    void insertHelper(ItemType vertex, int degree, int *edge);
 private:
     Node *start;//first item on linked list.
     Node *currentPos;//current position on the linked list.
