@@ -9,9 +9,9 @@ GraphNode::~GraphNode() {
 
 }
 
-void GraphNode::insert(ItemType vertex, int degree) {
+void GraphNode::insert(ItemType vertex, int degree, int *edge) {
     //call method
-    insertHelper(vertex, degree);
+    insertHelper(vertex, degree, edge);
 }//insert
 
 void GraphNode::deleteItem(ItemType vertex) {
@@ -22,12 +22,62 @@ void GraphNode::get(ItemType &item, bool &found) const {
 
 }
 
-void GraphNode::getLaplacian() {
-
+int ** GraphNode::getLaplacian() {
+    //instaniate degreeG
+    int ** degreeM = getDegreeMatrix();
+    int ** adjacenyM = getAdjacency();
+    int ** G = new int*[numOfVertex];
+    for(int i = 0; i<numOfVertex; i++) {
+        G[i] = new int[numOfVertex];
+    }//for
+    for(int i=0; i<numOfVertex; i++) {
+        for(int j=0; j<numOfVertex; j++) {
+            G[i][j]=degreeM[i][j]-adjacenyM[i][j];
+        }
+    }
+    return G;
 }
 
-void GraphNode::getAdjacency() {
+void GraphNode::printLaplacian() {
+    int ** G = getLaplacian();
+    for(int i=0; i<numOfVertex; i++) {
+        for(int j = 0; j<numOfVertex; j++) {
+            cout << G[i][j] << " ";
+        }//for
+        cout << endl;//makes it look more like matrix
+    }//for
+}
 
+int** GraphNode::getAdjacency() {
+    //instaniate degreeA
+    int ** degreeA = new int*[numOfVertex];
+    for(int i = 0; i<numOfVertex; i++) {
+        degreeA[i] = new int[numOfVertex];
+    }//for
+    for(int i=0; i<numOfVertex; i++) {
+        for(int j=0; j<numOfVertex; j++) {
+            degreeA[i][j]=0;
+        }
+    }
+    currentPos = start;
+    for(int i=0; i<numOfVertex; i++) {
+        int *edge = currentPos->edge;
+        for(int j=0; j<currentPos->degree; j++) {
+            degreeA[i][edge[j]-1] = 1;
+        }
+        currentPos = currentPos->next;
+    }//for
+    return degreeA;
+}
+
+void GraphNode::printAdjacenyMatrix() {
+    int ** degreeA = getAdjacency();
+    for(int i=0; i<numOfVertex; i++) {
+        for(int j = 0; j<numOfVertex; j++) {
+            cout << degreeA[i][j] << " ";
+        }//for
+        cout << endl;//makes it look more like matrix
+    }//for
 }
 
 int** GraphNode::getDegreeMatrix() {
@@ -61,7 +111,7 @@ void GraphNode::printDegreeMatrix() {
     }//for
 }//printDegreeMatrix
 
-void GraphNode::insertHelper(ItemType vertex, int degree) {
+void GraphNode::insertHelper(ItemType vertex, int degree, int *edge) {
     currentPos = start;
     Node *temp;
     int position = 0;
@@ -71,12 +121,14 @@ void GraphNode::insertHelper(ItemType vertex, int degree) {
         currentPos->next = NULL;
         currentPos->degree = degree;
         currentPos->position = 1;
+        currentPos->edge = edge;
         start = currentPos;
     } else if (start->next==NULL) { //this inserts if graph only has 1 node
         currentPos = new Node();
         currentPos->vertex = vertex;
         currentPos->degree = degree;
         currentPos->position = (start->position)+1;
+        currentPos->edge = edge;
         start->next = currentPos;
     } else { //inserts for all other cases
         while (currentPos->next != NULL) {
@@ -87,6 +139,7 @@ void GraphNode::insertHelper(ItemType vertex, int degree) {
         temp->vertex = vertex;
         temp->degree = degree;
         temp->position = position + 1;
+        temp->edge = edge;
         currentPos->next = temp;
         numOfVertex = position + 1;
     } //if else
