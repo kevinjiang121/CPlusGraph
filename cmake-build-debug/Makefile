@@ -66,10 +66,10 @@ RM = "C:\Main\Programs\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Main\Business\Projects\CPlusGraph
+CMAKE_SOURCE_DIR = "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Main\Business\Projects\CPlusGraph\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Main\Business\Projects\CPlusGraph\cmake-build-debug\CMakeFiles C:\Main\Business\Projects\CPlusGraph\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\CMakeFiles" "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Main\Business\Projects\CPlusGraph\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
