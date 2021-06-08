@@ -52,6 +52,8 @@ public:
     //for parameters. Insert the node as the next node on the linked list.
     //returns nothing.
     void insertHelper(ItemType vertex, int degree, int *edge);
+
+    int getNumOfVertex();
 private:
     Node *start;//first item on linked list.
     Node *currentPos;//current position on the linked list.
