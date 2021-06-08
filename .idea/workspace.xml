@@ -14,11 +14,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fe558a6-a0a6-4c61-9e0f-f43921ea12dd" name="Default Changelist" comment="Fixed targeting error. Made revisions to main.cpp to add user input.">
+    <list default="true" id="8fe558a6-a0a6-4c61-9e0f-f43921ea12dd" name="Default Changelist" comment="Revision made by CLion.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eigen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EigenGraph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eigen.h" beforeDir="false" afterPath="$PROJECT_DIR$/EigenGraph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -42,6 +62,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ItemType.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1rSufg7lAnbNV08SVk8UFyWs4CB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,6 +82,8 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
     <configuration name="CPlusGraph" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CPlusGraph" RUN_TARGET_NAME="CPlusGraph" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -91,7 +118,14 @@
       <workItem from="1620352392750" duration="3930000" />
       <workItem from="1620362598914" duration="600000" />
       <workItem from="1621619959842" duration="3638000" />
-      <workItem from="1621790291829" duration="3900000" />
+      <workItem from="1621790291829" duration="5897000" />
+      <workItem from="1621908727071" duration="2445000" />
+      <workItem from="1622048944867" duration="1268000" />
+      <workItem from="1622574530877" duration="10894000" />
+      <workItem from="1622752511798" duration="1862000" />
+      <workItem from="1622782504551" duration="649000" />
+      <workItem from="1623106160354" duration="907000" />
+      <workItem from="1623108569649" duration="7049000" />
     </task>
     <task id="LOCAL-00001" summary="Revisions made by CLion">
       <created>1619132810481</created>
@@ -401,7 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621620919811</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Added user input for the graph.">
+      <created>1621800412867</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1621800412867</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Revision made by CLion.">
+      <created>1621800427104</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1621800427104</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,8 +468,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added by CLion" />
-    <MESSAGE value="Added basic structure to GraphNode.cpp" />
     <MESSAGE value="Set-up GraphNode.h" />
     <MESSAGE value="Finished ItemType.h" />
     <MESSAGE value="Finished ItemType.cpp" />
@@ -445,6 +491,19 @@
     <MESSAGE value="Tested new methods." />
     <MESSAGE value="Revisions done by CLion." />
     <MESSAGE value="Fixed targeting error. Made revisions to main.cpp to add user input." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed targeting error. Made revisions to main.cpp to add user input." />
+    <MESSAGE value="Added user input for the graph." />
+    <MESSAGE value="Revision made by CLion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revision made by CLion." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/GraphNode.cpp</url>
+          <line>103</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

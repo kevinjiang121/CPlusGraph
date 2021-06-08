@@ -76,6 +76,7 @@ include CMakeFiles/CPlusGraph.dir/progress.make
 include CMakeFiles/CPlusGraph.dir/flags.make
 
 CMakeFiles/CPlusGraph.dir/main.cpp.obj: CMakeFiles/CPlusGraph.dir/flags.make
+CMakeFiles/CPlusGraph.dir/main.cpp.obj: CMakeFiles/CPlusGraph.dir/includes_CXX.rsp
 CMakeFiles/CPlusGraph.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPlusGraph.dir/main.cpp.obj"
 	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPlusGraph.dir\main.cpp.obj -c "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\main.cpp"
@@ -89,6 +90,7 @@ CMakeFiles/CPlusGraph.dir/main.cpp.s: cmake_force
 	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\main.cpp" -o CMakeFiles\CPlusGraph.dir\main.cpp.s
 
 CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj: CMakeFiles/CPlusGraph.dir/flags.make
+CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj: CMakeFiles/CPlusGraph.dir/includes_CXX.rsp
 CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj: ../GraphNode.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj"
 	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPlusGraph.dir\GraphNode.cpp.obj -c "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\GraphNode.cpp"
@@ -102,6 +104,7 @@ CMakeFiles/CPlusGraph.dir/GraphNode.cpp.s: cmake_force
 	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\GraphNode.cpp" -o CMakeFiles\CPlusGraph.dir\GraphNode.cpp.s
 
 CMakeFiles/CPlusGraph.dir/ItemType.cpp.obj: CMakeFiles/CPlusGraph.dir/flags.make
+CMakeFiles/CPlusGraph.dir/ItemType.cpp.obj: CMakeFiles/CPlusGraph.dir/includes_CXX.rsp
 CMakeFiles/CPlusGraph.dir/ItemType.cpp.obj: ../ItemType.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPlusGraph.dir/ItemType.cpp.obj"
 	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPlusGraph.dir\ItemType.cpp.obj -c "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\ItemType.cpp"
@@ -114,25 +117,26 @@ CMakeFiles/CPlusGraph.dir/ItemType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPlusGraph.dir/ItemType.cpp.s"
 	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\ItemType.cpp" -o CMakeFiles\CPlusGraph.dir\ItemType.cpp.s
 
-CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj: CMakeFiles/CPlusGraph.dir/flags.make
-CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj: ../Eigen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj"
-	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPlusGraph.dir\Eigen.cpp.obj -c "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\Eigen.cpp"
+CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj: CMakeFiles/CPlusGraph.dir/flags.make
+CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj: CMakeFiles/CPlusGraph.dir/includes_CXX.rsp
+CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj: ../EigenGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj"
+	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPlusGraph.dir\EigenGraph.cpp.obj -c "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\EigenGraph.cpp"
 
-CMakeFiles/CPlusGraph.dir/Eigen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPlusGraph.dir/Eigen.cpp.i"
-	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\Eigen.cpp" > CMakeFiles\CPlusGraph.dir\Eigen.cpp.i
+CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.i"
+	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\EigenGraph.cpp" > CMakeFiles\CPlusGraph.dir\EigenGraph.cpp.i
 
-CMakeFiles/CPlusGraph.dir/Eigen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPlusGraph.dir/Eigen.cpp.s"
-	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\Eigen.cpp" -o CMakeFiles\CPlusGraph.dir\Eigen.cpp.s
+CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.s"
+	C:\Main\Programs\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Main\Business\Projects\CPlusGraph\version 1.2\CPlusGraph\EigenGraph.cpp" -o CMakeFiles\CPlusGraph.dir\EigenGraph.cpp.s
 
 # Object files for target CPlusGraph
 CPlusGraph_OBJECTS = \
 "CMakeFiles/CPlusGraph.dir/main.cpp.obj" \
 "CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj" \
 "CMakeFiles/CPlusGraph.dir/ItemType.cpp.obj" \
-"CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj"
+"CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj"
 
 # External object files for target CPlusGraph
 CPlusGraph_EXTERNAL_OBJECTS =
@@ -140,7 +144,7 @@ CPlusGraph_EXTERNAL_OBJECTS =
 CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/main.cpp.obj
 CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj
 CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/ItemType.cpp.obj
-CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj
+CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj
 CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/build.make
 CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/linklibs.rsp
 CPlusGraph.exe: CMakeFiles/CPlusGraph.dir/objects1.rsp

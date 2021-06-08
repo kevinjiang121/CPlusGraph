@@ -250,6 +250,9 @@ CPlusGraph_BINARY_DIR:STATIC=C:/Main/Business/Projects/CPlusGraph/version 1.2/CP
 //Value Computed by CMake
 CPlusGraph_SOURCE_DIR:STATIC=C:/Main/Business/Projects/CPlusGraph/version 1.2/CPlusGraph
 
+//The directory containing a CMake configuration file for Eigen3.
+Eigen3_DIR:PATH=Eigen3_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
