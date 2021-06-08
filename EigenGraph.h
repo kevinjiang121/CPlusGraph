@@ -1,6 +1,7 @@
 //include statements
 #include <iostream>
 #include <string>
+#include <Eigen/Eigenvalues>
 
 //header guard
 #ifndef CPLUSGRAPH_EIGEN_H
@@ -8,18 +9,22 @@
 
 //namespaces
 using namespace std;
+using namespace Eigen;
 
 //declare Eigen class
-class Eigen {
+class EigenGraph {
 public:
     //constructors and destructors
-    Eigen();
-    ~Eigen();
+    EigenGraph();
+    EigenGraph(int **l, int size);
+    ~EigenGraph();
 
     //method
-    void eigenvalues(int **l);
-    void eigenvectors(int **l);
+    void eValues();
+    void eVectors();
 private:
+    Matrix<float, Dynamic, Dynamic> graphM;
+    int numOfVertex;
 };
 
 #endif
