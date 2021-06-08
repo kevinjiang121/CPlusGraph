@@ -3,6 +3,8 @@
 #include <string>
 #include <fstream>
 #include "GraphNode.h"
+#include "EigenGraph.h"
+
 
 //namespaces
 using namespace std;
@@ -42,6 +44,7 @@ int main() {
         }
         node.insert(vertex, e, edges);
     }
+    EigenGraph eigen(node.getLaplacian(), node.getNumOfVertex());
     char command = 'f';
     while(command != 'q') {
         cout << "d - print the degree matrix, a - print adjacency matrix, l - print graph laplacian, "
@@ -61,9 +64,11 @@ int main() {
             node.printLaplacian();
             cout << endl;
         } else if(command=='e') {
-            cout << "Not Implemented Yet" << endl;
+            cout << "The eigenvalues of this graph are:" << endl;
+            eigen.eValues();
         } else if(command=='v') {
-            cout << "Not Implemented Yet" << endl;
+            cout << "The eigenvalues of this graph are..." << endl;
+            eigen.eVectors();
         } else if(command=='q') {
             cout << "Exiting Program" << endl;
             cout << endl;
