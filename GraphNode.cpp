@@ -1,5 +1,6 @@
 //include statements
-#include "GraphNode.h"
+ #include "GraphNode.h"
+
 
 GraphNode::GraphNode() {
     start = NULL;
@@ -46,6 +47,7 @@ void GraphNode::printLaplacian() {
         }//for
         cout << endl;//makes it look more like matrix
     }//for
+
 }
 
 int** GraphNode::getAdjacency() {
@@ -175,3 +177,6 @@ void GraphNode::printNode() {
     }//if else
 } //printNode
 
+int GraphNode::getNumOfVertex() {
+    return numOfVertex;
+}
