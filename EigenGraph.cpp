@@ -2,7 +2,7 @@
 #include "EigenGraph.h"
 
 EigenGraph::EigenGraph() {
-
+    numOfVertex = 0;
 }
 
 EigenGraph::EigenGraph(int **l, int size) {
@@ -16,9 +16,7 @@ EigenGraph::EigenGraph(int **l, int size) {
     numOfVertex=size;
 }
 
-EigenGraph::~EigenGraph() {
-
-}
+EigenGraph::~EigenGraph() = default;
 
 void EigenGraph::eValues() {
     EigenSolver<MatrixXf> es(graphM, false);
