@@ -164,7 +164,7 @@ void GraphNode::printNode() {
     if(start == nullptr) {
         cout << "empty graph" << endl;
     } else {
-        if(currentPos!=nullptr) { //prints the degree of current node
+        if(currentPos!=nullptr) { //prints the degree of current node.
             cout << currentPos->degree << endl;
         } else {
             cout << "ERROR in printNode" << endl;
