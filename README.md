@@ -3,4 +3,7 @@ A repository about graphs. Users can input in number of vertices and define edge
 
 The graph is created via a linked list. Each vertices in the graph is represented by a node in the linked list. Each node contains the number of edges that is attached to the node (represented by the variable degree), an array of which edges is connected to the vertex, and each node also stores an item type. Currently the item type holds a string, but a template will be implemeneted later so that you can store any data type in the graph. The degree matrix, the adjacency matrix, and the graph Laplacian will be calculated via this linked list.
 
+Eigenvalues and Eigenvectors are calculated via the Eigen library provided by here:
+http://www.eigen.tuxfamily.org/
+
 CURRENTLY INCOMPLETE
