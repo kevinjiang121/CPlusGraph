@@ -5,7 +5,7 @@ EigenGraph::EigenGraph() {
     numOfVertex = 0;
 }
 
-EigenGraph::EigenGraph(int **l, int size) {
+EigenGraph::EigenGraph(int **l, int size) { //paraterized contructor for EigenGraph
     graphM.resize(size, size);
     graphM.setZero();
     for(int i=0; i<size; i++) {
