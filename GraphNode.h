@@ -53,7 +53,7 @@ public:
     //returns nothing.
     void insertHelper(ItemType vertex, int degree, int *edge);
 
-    int getNumOfVertex();
+    int getNumOfVertex() const;
 private:
     Node *start;//first item on linked list.
     Node *currentPos;//current position on the linked list.
