@@ -14,33 +14,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fe558a6-a0a6-4c61-9e0f-f43921ea12dd" name="Default Changelist" comment="Revision made by CLion.">
+    <list default="true" id="8fe558a6-a0a6-4c61-9e0f-f43921ea12dd" name="Default Changelist" comment="Made some minor fixes for warnings in GraphNode.cpp">
+      <change beforePath="$PROJECT_DIR$/.idea/CPlusGraph.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eigen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EigenGraph.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eigen.h" beforeDir="false" afterPath="$PROJECT_DIR$/EigenGraph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphNode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphNode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EigenGraph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EigenGraph.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/Eigen.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/GraphNode.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/EigenGraph.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/includes_CXX.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CPlusGraph.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CPlusGraph.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +49,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ItemType.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItemType.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rSufg7lAnbNV08SVk8UFyWs4CB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -83,9 +69,14 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CPlusGraph" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CPlusGraph" RUN_TARGET_NAME="CPlusGraph" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -125,70 +116,10 @@
       <workItem from="1622752511798" duration="1862000" />
       <workItem from="1622782504551" duration="649000" />
       <workItem from="1623106160354" duration="907000" />
-      <workItem from="1623108569649" duration="7049000" />
-    </task>
-    <task id="LOCAL-00001" summary="Revisions made by CLion">
-      <created>1619132810481</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132810481</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Revisions made by CLion">
-      <created>1619132853152</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132853152</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Revisions made by CLion">
-      <created>1619132864326</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132864326</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Created a GraphNode test object">
-      <created>1619132881497</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132881497</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Revisions made by CLion">
-      <created>1619132898530</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132898530</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added headers and sources to CMakeLists.txt">
-      <created>1619132940543</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132940543</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added GraphNode.cpp">
-      <created>1619132985787</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132985787</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added GraphNode.h">
-      <created>1619132995312</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1619132995312</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added ItemType.cpp">
-      <created>1619135707459</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1619135707459</updated>
+      <workItem from="1623108569649" duration="7321000" />
+      <workItem from="1623124438460" duration="14000" />
+      <workItem from="1625681781123" duration="1621000" />
+      <workItem from="1625693353150" duration="500000" />
     </task>
     <task id="LOCAL-00010" summary="Added ItemType.h">
       <created>1619135714415</created>
@@ -449,7 +380,91 @@
       <option name="project" value="LOCAL" />
       <updated>1621800427104</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Added path to the Eigen library.">
+      <created>1623123936985</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1623123936985</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Changed name from Eigen to EigenGraph. Added an Eigen matrix as a private object. Changed some parameters.">
+      <created>1623123989837</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1623123989837</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Changed and then added functionality to EigenGraph.cpp via the Eigen library.">
+      <created>1623124031471</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1623124031471</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Added functionality to eigenvalue and eigenvector command.">
+      <created>1623124052584</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1623124052584</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Added getNumOfVertex.">
+      <created>1623124104867</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1623124104867</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added getNumOfVertex prototype.">
+      <created>1623124114400</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1623124114400</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Changed made by CLion">
+      <created>1623124136478</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1623124136478</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Added by Clion">
+      <created>1623124147555</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1623124147555</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Made some minor fixes for warnings in GraphNode.cpp">
+      <created>1625693750558</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1625693750558</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Made some minor fixes for warnings in GraphNode.cpp">
+      <created>1625693761706</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1625693761706</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Made some minor fixes for warnings in GraphNode.h">
+      <created>1625693769845</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1625693769845</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Made some minor fixes for warnings in GraphNode.cpp">
+      <created>1625693801501</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1625693801501</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,16 +483,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Set-up GraphNode.h" />
-    <MESSAGE value="Finished ItemType.h" />
-    <MESSAGE value="Finished ItemType.cpp" />
-    <MESSAGE value="Added dependencies to CMake file" />
-    <MESSAGE value="Revisions done by CLion" />
-    <MESSAGE value="Added or deleted by CLion" />
-    <MESSAGE value="Added Eigen.h and added basic structure" />
-    <MESSAGE value="Added Eigen.cpp and added basic structure" />
-    <MESSAGE value="Added dependencies to Eigen" />
-    <MESSAGE value="Revisions by CLion" />
     <MESSAGE value="Added functionality of insert, insertHelper, printGraph, and printNode." />
     <MESSAGE value="Added prototype of insert, insertHelper, printGraph, and printNode." />
     <MESSAGE value="Created test cases for insert, insertHelper, printGraph, and printNode." />
@@ -493,17 +498,16 @@
     <MESSAGE value="Fixed targeting error. Made revisions to main.cpp to add user input." />
     <MESSAGE value="Added user input for the graph." />
     <MESSAGE value="Revision made by CLion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revision made by CLion." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/GraphNode.cpp</url>
-          <line>103</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added path to the Eigen library." />
+    <MESSAGE value="Changed name from Eigen to EigenGraph. Added an Eigen matrix as a private object. Changed some parameters." />
+    <MESSAGE value="Changed and then added functionality to EigenGraph.cpp via the Eigen library." />
+    <MESSAGE value="Added functionality to eigenvalue and eigenvector command." />
+    <MESSAGE value="Added getNumOfVertex." />
+    <MESSAGE value="Added getNumOfVertex prototype." />
+    <MESSAGE value="Changed made by CLion" />
+    <MESSAGE value="Added by Clion" />
+    <MESSAGE value="Made some minor fixes for warnings in GraphNode.h" />
+    <MESSAGE value="Made some minor fixes for warnings in GraphNode.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made some minor fixes for warnings in GraphNode.cpp" />
   </component>
 </project>
